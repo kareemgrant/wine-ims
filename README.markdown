@@ -8,7 +8,7 @@ Wine IMS also has an API that currently allows you to list all wines found in th
 
 ## Setup Instructions
 
-1. git clone the repo to your local development environment ``git clone giturl``
+1. git clone the repo to your local development environment ``git clone https://github.com/kareemgrant/wine-ims.git``
 2. Navigate to project folder and run ``rake db:setup`` from the command line
 3. Pull initial 200 Wine records from database by running ``rake fetch_wine_data`` from the command line
 4. Start your local server ``rails s``
