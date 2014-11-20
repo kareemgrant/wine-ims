@@ -1,0 +1,3 @@
+development:
+  wine_api_base_url: 'http://services.wine.com'
+  wine_api_key: '7b62131aba878a75304e3760000bf942'

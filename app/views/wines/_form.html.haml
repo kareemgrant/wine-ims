@@ -1,0 +1,6 @@
+= simple_form_for @wine do |f|
+  = f.input :name
+  = f.input :wine_type
+  = f.input :url
+  = f.input :retail_price_in_dollars, label: 'Retail Price'
+  = f.button :submit
