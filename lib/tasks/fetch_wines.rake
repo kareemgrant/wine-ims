@@ -3,8 +3,8 @@ desc 'Fetching wines from Wine.com API'
 task :query_api => :environment do
   if Rails.env == 'development'
 
-    [1, 51, 101, 151].each do |offset|
-      results = WineApi.new(50, offset).fetch_wines
+    [1, 101].each do |offset|
+      results = WineApi.new(100, offset).fetch_wines
       WineArchiver.store(results)
     end
 
